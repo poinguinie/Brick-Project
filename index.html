@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>벽돌 깨기</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/section.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+<body>
+    <Header>
+        <!-- 추가 사항 : 헤더 영역 제작  -->
+        <div class="logoArea">
+            <img src="./images/logo.png" alt="로고 이미지">
+        </div>
+        <h2>벽돌 깨기 게임</h2>
+        <!--
+            추가 사항 : 배경 음악 설정    
+        -->
+        <div class="bgmArea">
+            <audio src="./bgm/background-music.mp3" play loop controls id="bgmAudio">오디오 지원되지 않는 브라우저</audio>
+            <!-- 크롬 브라우저의 경우 자동 재생 정책에 의해 자동 재생이 지원되지 않는다. -->
+        </div>
+    </Header>  
+    <section id="content">
+        <div class="gameArea">
+            <canvas id="myCanvas" width="480" height="320"></canvas>
+            <button id="startGame" onclick="drawGame()">게임 시작하기</button>
+        </div>
+    </section>
+    <Footer>
+        <!-- 추가 사항 : 푸터 영역 제작  -->
+        <span>Copyright © Lee Ji Ho (Web Programming Subject)</span>
+    </Footer>
+
+    <!-- 자바스크립트 소스 -->
+    <script src="./js/main.js"></script>
+    <script src="./js/music.js"></script>
+
+</body>
+</html>

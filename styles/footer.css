@@ -1,0 +1,15 @@
+Footer {
+    background-color: grey;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+}
+Footer span {
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 300;
+}

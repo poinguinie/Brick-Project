@@ -1,0 +1,30 @@
+section#content {
+    width: 100%;
+    height: 83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#content .gameArea {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#content .gameArea button {
+    margin-top: 24px;
+    width: 120px;
+    height: 80px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+section#content .gameArea button:hover {
+    border: 1px solid grey;
+    background-color: grey;
+    color: white;
+}
